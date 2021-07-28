@@ -1,0 +1,21 @@
+alias bashrc='vim ~/.bashrc; source ~/.bashrc'
+
+# Utility
+alias c="clear"
+
+# GIT
+alias gs="git status"
+alias ga="git add"
+alias gr="git reset"
+alias gc="git checkout"
+alias gcm="git checkout master"
+alias gmm="git merge master"
+alias pull="git pull"
+alias push="git push"
+alias pushf="git push -f"
+alias commit="git commit -m"
+alias gaa="git add .; git commit --amend --no-edit; git push -f"
+alias gca="git reset --hard; git clean -fd"
+alias gd="git diff"
+alias gl="git log"
+alias gcb="git checkout -b"
